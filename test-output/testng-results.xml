@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-02T08:51:46 PDT" name="TestNG Regression Suite" finished-at="2024-04-02T08:52:24 PDT" duration-ms="38091">
+    <groups>
+    </groups>
+    <test started-at="2024-04-02T08:51:46 PDT" name="Google Test" finished-at="2024-04-02T08:52:01 PDT" duration-ms="14717">
+      <class name="testngsessions.GoogleTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testngsessions.GoogleTest@2c767a52]" started-at="2024-04-02T08:51:46 PDT" name="setup" finished-at="2024-04-02T08:52:00 PDT" duration-ms="14230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:testngsessions.GoogleTest@2c767a52]" started-at="2024-04-02T08:52:00 PDT" name="titleTest" finished-at="2024-04-02T08:52:00 PDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="imageTest()[pri:2, instance:testngsessions.GoogleTest@2c767a52]" started-at="2024-04-02T08:52:00 PDT" name="imageTest" finished-at="2024-04-02T08:52:01 PDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest -->
+        <test-method signature="urlTest()[pri:3, instance:testngsessions.GoogleTest@2c767a52]" started-at="2024-04-02T08:52:01 PDT" name="urlTest" finished-at="2024-04-02T08:52:01 PDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testngsessions.GoogleTest@2c767a52]" started-at="2024-04-02T08:52:01 PDT" name="teardown" finished-at="2024-04-02T08:52:01 PDT" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngsessions.GoogleTest -->
+    </test> <!-- Google Test -->
+    <test started-at="2024-04-02T08:51:46 PDT" name="OpenCart Test" finished-at="2024-04-02T08:52:02 PDT" duration-ms="15658">
+      <class name="testngsessions.OpenCartLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testngsessions.OpenCartLoginTest@359f7cdf]" started-at="2024-04-02T08:51:46 PDT" name="setup" finished-at="2024-04-02T08:51:51 PDT" duration-ms="5242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:testngsessions.OpenCartLoginTest@359f7cdf]" started-at="2024-04-02T08:51:51 PDT" name="titleTest" finished-at="2024-04-02T08:51:51 PDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="imageTest()[pri:2, instance:testngsessions.OpenCartLoginTest@359f7cdf]" started-at="2024-04-02T08:51:51 PDT" name="imageTest" finished-at="2024-04-02T08:51:52 PDT" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest -->
+        <test-method signature="urlTest()[pri:3, instance:testngsessions.OpenCartLoginTest@359f7cdf]" started-at="2024-04-02T08:51:52 PDT" name="urlTest" finished-at="2024-04-02T08:51:52 PDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testngsessions.OpenCartLoginTest@359f7cdf]" started-at="2024-04-02T08:51:52 PDT" name="teardown" finished-at="2024-04-02T08:52:02 PDT" duration-ms="10257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngsessions.OpenCartLoginTest -->
+    </test> <!-- OpenCart Test -->
+    <test started-at="2024-04-02T08:51:46 PDT" name="OrangeHRM Test" finished-at="2024-04-02T08:52:24 PDT" duration-ms="38090">
+      <class name="testngsessions.OrangeHRMTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testngsessions.OrangeHRMTest@5ffead27]" started-at="2024-04-02T08:51:46 PDT" name="setup" finished-at="2024-04-02T08:52:23 PDT" duration-ms="37264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.orangehrm.com/30-day-free-trial/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="imageTest()[pri:2, instance:testngsessions.OrangeHRMTest@5ffead27]" started-at="2024-04-02T08:52:23 PDT" name="imageTest" finished-at="2024-04-02T08:52:23 PDT" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageTest -->
+        <test-method signature="urlTest()[pri:3, instance:testngsessions.OrangeHRMTest@5ffead27]" started-at="2024-04-02T08:52:23 PDT" name="urlTest" finished-at="2024-04-02T08:52:24 PDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method signature="titleTest()[pri:4, instance:testngsessions.OrangeHRMTest@5ffead27]" started-at="2024-04-02T08:52:24 PDT" name="titleTest" finished-at="2024-04-02T08:52:24 PDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testngsessions.OrangeHRMTest@5ffead27]" started-at="2024-04-02T08:52:24 PDT" name="teardown" finished-at="2024-04-02T08:52:24 PDT" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngsessions.OrangeHRMTest -->
+    </test> <!-- OrangeHRM Test -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>
